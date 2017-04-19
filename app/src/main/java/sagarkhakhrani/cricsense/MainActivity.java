@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ProgressDialog progressDialog;
     DatabaseReference rootReference;
     Boolean userExists=false;
-    //Added A comment for Git
+    //Added A comment for Git Twice
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
