@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F94649</color>
+    <color name="colorPrimaryDark">#fda27f</color>
+    <color name="colorAccent">#f44400</color>
+    <color name="colorPrimaryLight">#FAE3DB</color>
+
+    <color name="gl">#E04006</color>
+    <color name="rps">#912356</color>
+
+</resources>

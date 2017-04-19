@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+                <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--xmlns:tools="http://schemas.android.com/tools"-->
+                <!--android:id="@+id/new_card_view"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--card_view:cardUseCompatPadding="true"-->
+                <!--card_view:cardCornerRadius="8dp"-->
+                <!--card_view:cardBackgroundColor="@color/colorPrimaryLight"-->
+                <!--android:layout_marginBottom="16dp">-->
+
+                <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="match_parent"-->
+           <!--android:orientation="vertical"-->
+           <!--android:id="@+id/team_cards_linear">-->
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/flags"-->
+                <!--android:layout_weight="1">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--card_view:srcCompat="@drawable/dd"-->
+                    <!--android:id="@+id/team1imageView"-->
+                    <!--android:layout_weight="1" />-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="48dp"-->
+                    <!--android:layout_height="48dp"-->
+                    <!--card_view:srcCompat="@drawable/vs"-->
+                    <!--android:id="@+id/imageView4"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_weight="1" />-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--card_view:srcCompat="@drawable/kkr"-->
+                    <!--android:id="@+id/team2imageView"-->
+                    <!--android:layout_weight="1" />-->
+
+            <!--</LinearLayout>-->
+
+                   <!--</LinearLayout>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_below="@+id/new_card_view">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/Rate1RadioButton"-->
+            <!--android:text="Rate1"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:gravity="center"/>-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/Rate2RadioButton"-->
+            <!--android:text="Rate 2"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:src="@drawable/ic_action_tick"-->
+        <!--android:backgroundTint="@color/colorPrimary" />-->
+
+</RelativeLayout>

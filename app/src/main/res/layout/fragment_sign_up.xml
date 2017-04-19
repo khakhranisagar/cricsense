@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="sagarkhakhrani.cricsense.SignUp"
+android:background="@color/colorPrimaryLight">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Full Name"
+            android:ems="10"
+            android:id="@+id/userFnameEditText" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:layout_marginTop="25dp"
+            android:id="@+id/editText4"
+            android:hint="Phone Number"
+            android:text="Phone Number"
+            android:layout_below="@+id/userFnameEditText"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Avatar \n"
+            android:id="@+id/textViewAvatar"
+            android:layout_below="@id/editText4"/>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewAvatar"
+    android:orientation="horizontal"
+    android:id="@+id/avatarRadioGroup"
+    >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/av1"
+            android:text="Mandy"
+
+            android:drawableBottom="@drawable/av1"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/av4"
+            android:text="Joe"
+            android:id="@+id/av2"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/av3"
+            android:text="Olivia"
+            android:drawableBottom="@drawable/av5"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/av4"
+            android:text="Ethan"
+            android:drawableBottom="@drawable/av8"/>
+
+
+</RadioGroup>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/avatarRadioGroup"
+            android:id="@+id/ReferalEditText"
+            android:hint="Enter Referal Code (Optional)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ReferalEditText"
+            android:text="signup"
+            android:id="@+id/fab_signup"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/buttonbackground"/>
+
+<!--<android.support.design.widget.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fab_signup"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="bottom|end"
+    android:backgroundTint="@color/colorPrimary"
+    android:layout_margin="@dimen/fab_margin"
+    android:src="@drawable/ic_action_tick"/>
+-->
+
+
+    </RelativeLayout>
+</RelativeLayout>

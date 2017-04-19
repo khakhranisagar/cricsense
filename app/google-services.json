@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "240906936735",
+    "firebase_url": "https://cricsense-5826e.firebaseio.com",
+    "project_id": "cricsense-5826e",
+    "storage_bucket": "cricsense-5826e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240906936735:android:c9b1be20e83fd0f7",
+        "android_client_info": {
+          "package_name": "sagarkhakhrani.cricsense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240906936735-ngu0vunge5qk0gerd2k3vkt72q145k51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sagarkhakhrani.cricsense",
+            "certificate_hash": "248ae5e7aa02a288753fc2f2d0a0f5702d9f0ad2"
+          }
+        },
+        {
+          "client_id": "240906936735-fmlhip83apdspbu2gfhdaiobtguvprra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCM1B-LBbBhdfZ-EPo3n694BkS5-8l6DM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240906936735-fmlhip83apdspbu2gfhdaiobtguvprra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
